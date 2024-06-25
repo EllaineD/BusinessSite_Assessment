@@ -1,0 +1,330 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.navbar h1 {
+    color: white;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar li {
+    margin-right: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.nav li a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.section-title {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.icon {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.icon-circle {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #ebebeb;
+    margin-bottom: 20px;
+    
+}
+
+.icon-circle img {
+    max-width: 50px;
+    max-height: 50px;
+    margin: 15px;
+    border: 2em;
+    border-color: #3399ff;
+}
+
+.icon-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-decoration-color: black;
+}
+
+.icon-paragraph {
+    font-size: 16px;
+    text-decoration-color: black;
+}
+
+.div_wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.div_wrapper .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div_wrapper .col-4 {
+    flex-basis: 50%;
+    max-width: 50%;
+}
+
+.div_wrapper h1 {
+    margin-bottom: 20px;
+}
+
+.div_wrapper p {
+    margin-bottom: 10px;
+}
+
+.button-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button-group button {
+    margin-right: 10px;
+}
+
+.div_wrapper img {
+    display: block;
+    margin-left: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 576px) {
+    .col-4 {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 576px) {
+    .col-4 {
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-4 {
+        flex-basis: 33.33%;
+        max-width: 33.33%;
+    }
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#story {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#story .div_wrapper {
+    display: flex;
+}
+
+#story .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#story .header {
+    margin-bottom: 20px;
+   
+}
+
+#story h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#story nav ul {
+    background-color: #f2f2f2;
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#story nav ul li {
+    margin-right: 10px;
+}
+
+#story .content {
+    margin-bottom: 30px;
+}
+
+#story h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#story p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#welcome {
+    background-color: lightblue;
+}
+
+.main {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+#services {
+    padding: 50px 0;
+}
+
+#prices {
+    padding: 50px;
+    background-color: white;
+}
+
+#prices .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#prices .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#prices .col {
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#prices .section {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#prices h2 {
+color: #333;
+font-size: 24px;
+}
+
+#prices p {
+color: #777;
+font-size: 18px;
+margin-bottom: 10px;
+}
+
+#prices ul {
+list-style: none;
+padding: 0;
+margin-bottom: 20px;
+}
+
+#prices li {
+color: #444;
+font-size: 16px;
+margin-bottom: 5px;
+}
+
+#prices .start-btn {
+background-color: #3399ff;
+color: white;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+font-size: 16px;
+cursor: pointer;
+}
+
+#prices .start-btn:hover {
+background-color: #007bff;
+}
+#prices .section:nth-of-type(1) ul li:first-of-type::before {
+content: "\2713 "; 
+color: #3399ff;
+font-weight: bold;
+margin-right: 5px;
+}
+
+#prices .section:nth-of-type(2) ul li:nth-of-type(-n+2)::before {
+content: "\2713 "; 
+color: #3399ff;
+font-weight: bold;
+margin-right: 5px;
+}
+
+#prices .section:nth-of-type(3) ul li::before {
+content: "\2713 ";
+color: #3399ff;
+font-weight: bold;
+margin-right: 5px;
+}
+
+footer {
+background-color: #3399ff;
+padding: 20px;
+color: white;
+}
+
+.footer-content {
+text-align: center;
+}
+
+.footer-button {
+background-color: white;
+color: #3399ff;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+font-size: 16px;
+cursor: pointer;
+}
