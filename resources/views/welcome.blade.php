@@ -11,6 +11,7 @@
     <link href="{{url('public/css/style.css') }}" rel="stylesheet" type="text/css">
 <link href="{{url('public/css/font-awesome.css') }}" rel="stylesheet" type="text/css">
 <link href="{{url('public/css/animate.css') }}" rel="stylesheet" type="text/css">
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"> -->
    
 </head>
 <body>
@@ -22,7 +23,7 @@
                     <li><div class="logo"><a href="#"><img src="{{ asset('images/favicon.png') }}" alt="logo"></a></div> </li>
                         <li><h1> <a href="#welcome" class="scroll-link">Business</h1></a></li>
                         
-                        <li><a href="#story">Home</a></li>
+                        <li><a href="#story">Dashboard</a></li>
                         <li><a href="#services">Services</a></li>
                         <li><a href="#prices">Pricing</a></li>
                     </ul>
@@ -37,7 +38,7 @@
 <div class="welcome">
     <div class="row">
         <div class="col-xs-6">
-            <h1>Welcome!</h1>
+            <h1>Corporate Business</h1>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae aliquam elit, sed commodo odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras vel augue et erat vulputate pharetra. Ut ac feugiat ex.
             </p>
