@@ -16,7 +16,7 @@ This is a webpage made as an assessment task for Software Developer role.
 ### Installation
 
 1. Clone the repository: https://github.com/EllaineD/BusinessSite_Assessment
-2. Install dependencies in cmd: composer install
+2. Install dependencies in cmd: composer install, npm install
 3. Update the following configurations in the `.env` file: Database connection details
 4. Run database migrations: php artisan migrate
 5. (Optional) Seed the database with initial data: db:seed
