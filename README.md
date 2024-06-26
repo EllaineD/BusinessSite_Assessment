@@ -31,6 +31,7 @@ This is a webpage made as an assessment task for Software Developer role.
 
 To start the development server, run the following command:php artisan serve
 The application will be accessible at [http://localhost:8000](http://localhost:8000).
+The admin portal is accessible at [http://localhost:8000](http://localhost:8000/admin).
 
 ### Testing
 
